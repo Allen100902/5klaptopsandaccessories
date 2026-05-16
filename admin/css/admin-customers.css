@@ -1,0 +1,311 @@
+body{
+	background-color:#F9F6EE;
+	
+	-webkit-font-smoothing: antialiased;
+	margin:0;
+}
+
+.navigation{
+	background-color:#1A1A1D;
+	height:auto;
+	width:250px;
+	top:0;
+	position:sticky;
+	overflow:visible;
+	min-height:100%;
+	text-align:center;
+	
+}
+
+.body-content{
+	width:100%;
+	height:auto;
+	min-height:100%;
+	display:flex;
+}
+.navigation .navigation-content{
+	position:relative;
+    max-width:100%;
+    top:3.4%;
+    
+    left:50%;
+    
+}
+.navigation-content{text-align:center;}
+.navigation-content img{
+	position:relative;
+    max-width:50%;
+    display:flex;
+    
+    margin-left:-25%;
+    
+}
+
+.navigation a{
+	font-family:Verdana;
+	color:#F9F6EE;
+	position:relative;
+	display:block;
+	text-decoration:none;
+	
+	
+}
+
+.navigation a.active{
+	color:#FF9933;
+}
+
+.navigation a:hover{
+	color:#FF9933;
+	transition: .5s ease;
+}
+.navigation ul{
+	max-width:100%;
+	display:block;
+	padding-inline-start:0px;
+	margin-top:40px;	
+	
+}
+.navigation ul li{
+	list-style-type:none;
+	padding-bottom:20px;
+	text-align:center;
+	
+}
+
+ul li .fas{
+	
+	color:#F9F6EE;
+	font-size:25px;
+	display:block;
+	
+}
+
+.fas{
+	color:#F9F6EE;
+	font-size:25px;
+	display:block;
+}
+
+.panel-content{
+	background-color:#F9F6EE;
+	height:auto;
+	
+	width:90%;
+	
+	margin-left:10px;
+	
+	
+}
+
+.add-buton-holder{
+	width:4;
+}
+
+
+/* CSS */
+.button1 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 16px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  margin-top:3%;
+  margin-left:40%;
+  margin-right:40%:
+}
+
+.button1:hover,
+.button1:focus {
+  opacity: .75;
+}
+
+.panel-nav{
+	
+	HEIGHT:70PX;
+	BACKGROUND-COLOR:#1A1A1D;
+	width:100%;
+	min-width:100%;
+	POSITION:STATIC;
+	TOP:0;
+	
+}
+.PANEL-NAV-HOLDER{
+    HEIGHT: AUTO;
+    MARGIN: 0 AUTO;
+    PADDING: 10PX;
+    POSITION: RELATIVE;
+	PADDING-TOP:20PX;
+	padding-left:12px;
+	padding-right:12px;
+	TEXT-ALIGN:CENTER;
+	width:auto;
+	min-width:80%;
+	margin-right:0;
+}
+
+
+.FONTWEL{
+	FONT-FAMILY:VERDANA;
+	COLOR:WHITE;
+	FLOAT:RIGHT;
+}
+.FONTADMI{
+	FONT-FAMILY:VERDANA;
+	COLOR:#FF9933;
+	FLOAT:RIGHT;
+}
+
+STRONG{
+	FONT:VERDANA;
+	COLOR:WHITE;
+	FLOAT:LEFT;
+}
+P{FLOAT:RIGHT;}
+
+.search-container{
+	display:inline-flex;
+	
+}
+.search-container input[type=text]{
+  padding:5px;
+  font-size: 16px;
+  border: none;
+
+}
+.search-container input[type=submit]{
+
+padding:14px 14px;
+background-color:1A1A1D;
+font-size:13px;
+border:none;
+font-family:verdana;
+ margin-left:3%;
+ margin-top:-6px;
+height:25px;
+cursor:pointer;
+color:white;
+display:inline-block;
+}
+.search-container input[type=submit]:hover{
+	color:#FF9933;
+	transition: .5s ease;
+}
+.tableholder{
+	width:100%;
+	height:650px;
+	overflow:scroll;
+}
+.tableholder table{
+	margin-top:2%;
+	border-bottom-style:solid;
+	border-collapse:collapse;
+	width:100%;
+	text-align:center;
+	height:auto;
+	background-color:#1A1A1D;
+}
+.tableholder table img{
+	width:40px;
+}
+.tableholder table th{
+	color:#FF9933;
+}
+.tableholder table td{
+	color:white;
+}
+.tableholder tr:hover{
+	background-color:#FF9933;
+	
+	transition: .5s ease;
+}
+
+.tableholder th,td{
+	padding: 8px;
+}
+.tableholder table a{
+	text-decoration:none;
+	color:red;
+}
+
+form{
+	display:flex;
+}
+
+.edit-holder{
+	position:relative;
+	width:90%;
+	margin:auto;
+	height:auto;
+}
+.text-head{
+	color:#FF9933;
+	font-family:verdana;
+}
+.edit-content{
+	width:100%;
+	
+	border-top:solid;
+	border-top-color:#FF9933;
+}
+
+.holder{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+/* CSS */
+.add-button-holder {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 150px;
+}
+
+.add-button-holder:hover,
+.add-button-holder:focus {
+  opacity: .75;
+}
+
+/* carousel */
+.carousel{
+	width: 50%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+
+
+.carouselimg{
+	min-width: 300px;
+	min-height: 100px;
+}
